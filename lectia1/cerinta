@@ -1,0 +1,9 @@
+1.Scrie functia pentru
+int main() {
+    int x;
+    cin >> x;
+    if (estePar(x))
+        cout << "Numarul este par.";
+    else
+        cout << "Numarul este impar.";
+}

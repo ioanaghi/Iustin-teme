@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int nrCifre(int n) {
+    int nr = 0;
+    do {
+        nr++;
+        n /= 10;
+    } while (n != 0);
+    return nr;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << "Numar de cifre: " << nrCifre(n);
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int primaCifra(int n) {
+    while (n >9)
+        n /= 10;
+    return n;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << "Prima cifra este: " << primaCifra(n);
+    return 0;
+}

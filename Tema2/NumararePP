@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+void CitireMatrice(int n, int a[101][101])
+{
+	int i, j;
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+			cin >> a[i][j];
+}
+int PatratPerfect(int n) {
+	if (sqrt(n) == int(sqrt(n)))
+		return 1;
+	else
+		return 0;
+}
+int NumararePP(int n, int a[101][101]) {
+	int i, j, v=0;
+	for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
+		{
+			if (PatratPerfect(a[i][j]) == 1)
+				v = v + 1;
+		}
+	return v;
+}
+
+int main()
+{
+	int n, a[101][101];
+	cin >> n;
+	CitireMatrice(n, a);
+	cout << NumararePP(n, a);
+	return 0;
+
+}

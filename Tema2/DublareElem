@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+void CitireVector(int n,int v[100]) {
+    int i; 
+    for (i = 0; i < n; i++)
+        cin >> v[i];
+}
+void AfisareVector(int n, int v[100]) {
+    int i;
+    for (i = 0; i < n; i++)
+        cout << v[i] << " ";
+}
+void DublareElem(int n, int v[100]) {
+    int i; 
+    for (i = 0; i < n; i++)
+        v[i] = 2 * v[i];
+}
+int main()
+{
+    int n, v[100];
+    cin >> n;
+    CitireVector(n, v);
+    DublareElem(n, v);
+    AfisareVector(n, v);
+    return 0;
+}

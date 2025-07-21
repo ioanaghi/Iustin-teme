@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int ascendent(int n, int x, int y)
+{
+    int i, suma = 0;
+    for (i = x;i <= y; i++)
+    {
+        int an = i, OK = 1;
+        while (an != 0)
+        {
+            if (an % 10 < n % 10)
+                OK = 0;
+            an = an / 10;
+        }
+        if (OK == 1)
+            suma = suma + i;
+    }
+    return suma;
+}
+int main()
+{
+    int n, x, y;
+    cin >> n >> x >> y;
+    cout << ascendent(n, x, y);
+    return 0;
+}

@@ -1,0 +1,19 @@
+int cifraDeControl(int n) {
+    int s;
+    while (n > 9) {
+        s = 0;
+        while (n != 0) {
+            s += n % 10;
+            n /= 10;
+        }
+        n = s;
+    }
+    return n;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << "Cifra de control este: " << cifraDeControl(n);
+    return 0;
+}

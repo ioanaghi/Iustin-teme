@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int nr_cifre(int n) {
+    int k = 0;
+    while (n != 0) {
+        k++;
+        n /= 10;
+    }
+    return k;
+}
+
+int main() {
+    cout << nr_cifre(3058);
+}

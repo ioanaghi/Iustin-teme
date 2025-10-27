@@ -1,0 +1,125 @@
+Probleme subprograme-stil bac
+ 
+
+1. Se numesc prietene două numere naturale distincte a și b dacă suma divizorilor proprii ai lui a este egală cu b, iar suma divizorilor proprii ai lui b este egală cu a.
+Subprogramul prietene are doi parametri, a și b, prin care primește două numere naturale. Subprogramul returnează valoarea 1 dacă numerele a și b sunt prietene și 0 în caz contrar.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru a=220 și b=284 subprogramul returnează valoarea 1.
+ 
+ 
+ 
+2. Subprogramul oglindit are un singur parametru, n, prin care primește un număr natural (n ∈ [0,10⁹]).
+Subprogramul returnează numărul obținut prin scrierea cifrelor lui n în ordine inversă.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=12530 se returnează 3521.
+ 
+ 
+ 
+ 
+3. Subprogramul cifimp are un singur parametru, n, prin care primește un număr natural (n ≤ 10⁹).
+Subprogramul returnează produsul cifrelor impare ale lui n. Dacă n nu conține cifre impare, subprogramul returnează 0.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=2468 se returnează 0, iar pentru n=3529 se returnează 135.
+ 
+ 
+ 
+ 
+4. Subprogramul nrprime are un singur parametru, n, prin care primește un număr natural nenul.
+Subprogramul returnează numărul de valori prime din intervalul [1, n].
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=10 se returnează 4.
+ 
+ 
+ 
+ 
+5. Subprogramul cmmdc are doi parametri, a și b, prin care primește două numere naturale nenule.
+Subprogramul returnează cel mai mare divizor comun al celor două numere.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru a=84 și b=60 se returnează 12.
+ 
+6. Subprogramul distincte are un singur parametru, n, prin care primește un număr natural (n ∈ [1,10⁹]).
+Subprogramul returnează valoarea 1 dacă toate cifrele numărului n sunt distincte și 0 în caz contrar.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=1234 se returnează 1, iar pentru n=1123 se returnează 0.
+ 
+ 
+ 
+ 
+ 
+7. Subprogramul sumdiv are un singur parametru, n, prin care primește un număr natural.
+Subprogramul returnează suma tuturor divizorilor pozitivi ai numărului n.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=12 se returnează 28.
+ 
+ 
+ 
+ 
+ 
+8. Subprogramul factori are un singur parametru, n, prin care primește un număr natural (n ≥ 2).
+Subprogramul afișează pe ecran toți divizorii proprii ai numărului n, în ordine crescătoare, separați prin câte un spațiu.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=12 se afișează pe ecran 2 3 4 6.
+ 
+ 
+ 
+ 
+ 
+9. Subprogramul elimp are un singur parametru, n, prin care primește un număr natural.
+Subprogramul returnează numărul obținut prin eliminarea tuturor cifrelor pare din scrierea lui n.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru n=2457812 se returnează 571.
+ 
+ 
+ 
+ 
+ 
+ 
+10. Subprogramul cmmc are doi parametri, a și b, prin care primește două numere naturale nenule.
+Subprogramul returnează cel mai mic multiplu comun al celor două numere.
+Scrieți definiția completă a subprogramului.
+Exemplu: pentru a=6 și b=8 se returnează 24.
+ 
+11. Se numește rotund un număr natural dacă prima și ultima sa cifră sunt egale.
+Subprogramul rotund are un singur parametru, n, prin care primește un număr natural.
+Subprogramul returnează valoarea 1 dacă numărul este rotund și 0 în caz contrar.
+Exemplu: pentru n=232 se returnează 1, iar pentru n=120 se returnează 0.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12. Subprogramul nr_cifre are un singur parametru, n, prin care primește un număr natural nenul.
+Subprogramul returnează numărul de cifre ale lui n.
+Exemplu: pentru n=3058 se returnează 4.
+ 
+ 
+ 
+ 
+ 
+ 
+13. Se consideră două numere naturale a și b.
+Subprogramul div_comuni are doi parametri, a și b, prin care primește cele două numere.
+Subprogramul returnează numărul de divizori comuni ai acestora.
+Exemplu: pentru a=12 și b=18 se returnează 4.
+ 
+ 
+ 
+ 
+ 
+ 
+14. Se numește cifră dominantă a unui număr natural n cifra care apare de cele mai multe ori în scrierea sa.
+Subprogramul dominanta are un singur parametru, n, prin care primește un număr natural.
+Subprogramul returnează cifra dominantă a lui n. Dacă există mai multe cifre cu aceeași frecvență maximă, se returnează cea mai mare dintre ele.
+Exemplu: pentru n=2233312 se returnează 3.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15. Subprogramul pprime are un singur parametru, n, prin care primește un număr natural (n≥2).
+Subprogramul returnează cel mai mare număr prim mai mic decât n.
+Exemplu: pentru n=20 se returnează 19.

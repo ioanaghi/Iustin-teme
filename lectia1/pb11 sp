@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int rotund(int n) {
+    int ultim = n % 10;
+    while (n >= 10)
+        n /= 10;
+    int prim = n;
+    return (prim == ultim);
+}
+
+int main() {
+    cout << rotund(232);
+}
